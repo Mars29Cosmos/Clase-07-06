@@ -1,0 +1,48 @@
+#target {
+    max-width:100%;
+    width:600px;
+    margin:0 auto;
+  }
+  .image-list {
+      position:relative;
+      float: left;
+      display:inline;
+  }
+  .image-styles {
+      margin:15px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      width: 200px;
+      height: 200px;
+  }
+  .image-nombre {
+      background:#000;
+      width:100%;
+      position:absolute;
+      bottom:15px;
+      left:10px;
+      color:red;
+      text-align:center;
+      padding:2px;
+      opacity:0.6;
+      filter:alpha(opacity=60);
+      /* For IE8 and earlier */
+  }
+  .image-poder {
+    background:#000;
+    width:100%;
+    position:absolute;
+    bottom:40px;
+    left:10px;
+    color:red;
+    text-align:center;
+    padding:2px;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    /* For IE8 and earlier */
+}
+
+body{
+  background-color: Black;
+  color: red;
+}
